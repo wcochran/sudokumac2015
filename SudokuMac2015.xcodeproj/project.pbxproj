@@ -13,6 +13,7 @@
 		55B5045B1AE96948004E5C45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B5045A1AE96948004E5C45 /* Images.xcassets */; };
 		55B5045E1AE96948004E5C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B5045C1AE96948004E5C45 /* Main.storyboard */; };
 		55B5046A1AE96949004E5C45 /* SudokuMac2015Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B504691AE96949004E5C45 /* SudokuMac2015Tests.m */; };
+		55B504751AE969DC004E5C45 /* SudokuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B504741AE969DC004E5C45 /* SudokuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		55B504631AE96949004E5C45 /* SudokuMac2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuMac2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B504681AE96949004E5C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B504691AE96949004E5C45 /* SudokuMac2015Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudokuMac2015Tests.m; sourceTree = "<group>"; };
+		55B504731AE969DC004E5C45 /* SudokuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudokuView.h; sourceTree = "<group>"; };
+		55B504741AE969DC004E5C45 /* SudokuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudokuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				55B504531AE96948004E5C45 /* AppDelegate.m */,
 				55B504571AE96948004E5C45 /* ViewController.h */,
 				55B504581AE96948004E5C45 /* ViewController.m */,
+				55B504731AE969DC004E5C45 /* SudokuView.h */,
+				55B504741AE969DC004E5C45 /* SudokuView.m */,
 				55B5045A1AE96948004E5C45 /* Images.xcassets */,
 				55B5045C1AE96948004E5C45 /* Main.storyboard */,
 				55B504501AE96948004E5C45 /* Supporting Files */,
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B504591AE96948004E5C45 /* ViewController.m in Sources */,
+				55B504751AE969DC004E5C45 /* SudokuView.m in Sources */,
 				55B504561AE96948004E5C45 /* main.m in Sources */,
 				55B504541AE96948004E5C45 /* AppDelegate.m in Sources */,
 			);
