@@ -22,4 +22,9 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction)matrixButtonClicked:(NSMatrix *)sender {
+    const NSInteger tag = [sender.selectedCell tag];
+    NSLog(@"matrixButtonClicked:%d", (int)tag);
+}
+
 @end
