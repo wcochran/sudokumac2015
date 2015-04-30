@@ -7,6 +7,8 @@
 //
 
 #import "SudokuView.h"
+#import "SudokuViewController.h"
+#import "SudokuPuzzle.h"
 
 @implementation SudokuView
 
@@ -72,6 +74,13 @@
                                                           boardRect.origin.y + i*cellHeight)];
         }
     }
+    
+    
+    // XXX TODO draw puzzle numbers
+    SudokuPuzzle *puzzle = self.sudokuViewController.sudokuPuzzle;
+    
+    // XXX
+    
 }
 
 -(void)setSelectedCol:(NSInteger)selectedCol {

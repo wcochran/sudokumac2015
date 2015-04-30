@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5586ABEB1AF2A0C200D4C714 /* SudokuPuzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586ABEA1AF2A0C200D4C714 /* SudokuPuzzle.m */; };
+		5586ABF01AF2A16000D4C714 /* sudoku-easy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5586ABEC1AF2A16000D4C714 /* sudoku-easy.plist */; };
+		5586ABF11AF2A16000D4C714 /* sudoku-expert.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5586ABED1AF2A16000D4C714 /* sudoku-expert.plist */; };
+		5586ABF21AF2A16000D4C714 /* sudoku-intermediate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5586ABEE1AF2A16000D4C714 /* sudoku-intermediate.plist */; };
+		5586ABF31AF2A16000D4C714 /* sudoku-simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5586ABEF1AF2A16000D4C714 /* sudoku-simple.plist */; };
+		5586ABF61AF2A32D00D4C714 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586ABF51AF2A32D00D4C714 /* OptionsViewController.m */; };
 		55B504541AE96948004E5C45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B504531AE96948004E5C45 /* AppDelegate.m */; };
 		55B504561AE96948004E5C45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B504551AE96948004E5C45 /* main.m */; };
-		55B504591AE96948004E5C45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B504581AE96948004E5C45 /* ViewController.m */; };
+		55B504591AE96948004E5C45 /* SudokuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B504581AE96948004E5C45 /* SudokuViewController.m */; };
 		55B5045B1AE96948004E5C45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B5045A1AE96948004E5C45 /* Images.xcassets */; };
 		55B5045E1AE96948004E5C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B5045C1AE96948004E5C45 /* Main.storyboard */; };
 		55B5046A1AE96949004E5C45 /* SudokuMac2015Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B504691AE96949004E5C45 /* SudokuMac2015Tests.m */; };
@@ -27,13 +33,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5586ABE91AF2A0C200D4C714 /* SudokuPuzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudokuPuzzle.h; sourceTree = "<group>"; };
+		5586ABEA1AF2A0C200D4C714 /* SudokuPuzzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudokuPuzzle.m; sourceTree = "<group>"; };
+		5586ABEC1AF2A16000D4C714 /* sudoku-easy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sudoku-easy.plist"; sourceTree = "<group>"; };
+		5586ABED1AF2A16000D4C714 /* sudoku-expert.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sudoku-expert.plist"; sourceTree = "<group>"; };
+		5586ABEE1AF2A16000D4C714 /* sudoku-intermediate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sudoku-intermediate.plist"; sourceTree = "<group>"; };
+		5586ABEF1AF2A16000D4C714 /* sudoku-simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sudoku-simple.plist"; sourceTree = "<group>"; };
+		5586ABF41AF2A32D00D4C714 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		5586ABF51AF2A32D00D4C714 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 		55B5044D1AE96948004E5C45 /* SudokuMac2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuMac2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B504511AE96948004E5C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B504521AE96948004E5C45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B504531AE96948004E5C45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		55B504551AE96948004E5C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55B504571AE96948004E5C45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55B504581AE96948004E5C45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55B504571AE96948004E5C45 /* SudokuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudokuViewController.h; sourceTree = "<group>"; };
+		55B504581AE96948004E5C45 /* SudokuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudokuViewController.m; sourceTree = "<group>"; };
 		55B5045A1AE96948004E5C45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55B5045D1AE96948004E5C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55B504631AE96949004E5C45 /* SudokuMac2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuMac2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,10 +98,18 @@
 			children = (
 				55B504521AE96948004E5C45 /* AppDelegate.h */,
 				55B504531AE96948004E5C45 /* AppDelegate.m */,
-				55B504571AE96948004E5C45 /* ViewController.h */,
-				55B504581AE96948004E5C45 /* ViewController.m */,
+				55B504571AE96948004E5C45 /* SudokuViewController.h */,
+				55B504581AE96948004E5C45 /* SudokuViewController.m */,
 				55B504731AE969DC004E5C45 /* SudokuView.h */,
 				55B504741AE969DC004E5C45 /* SudokuView.m */,
+				5586ABE91AF2A0C200D4C714 /* SudokuPuzzle.h */,
+				5586ABEA1AF2A0C200D4C714 /* SudokuPuzzle.m */,
+				5586ABF41AF2A32D00D4C714 /* OptionsViewController.h */,
+				5586ABF51AF2A32D00D4C714 /* OptionsViewController.m */,
+				5586ABEC1AF2A16000D4C714 /* sudoku-easy.plist */,
+				5586ABED1AF2A16000D4C714 /* sudoku-expert.plist */,
+				5586ABEE1AF2A16000D4C714 /* sudoku-intermediate.plist */,
+				5586ABEF1AF2A16000D4C714 /* sudoku-simple.plist */,
 				55B5045A1AE96948004E5C45 /* Images.xcassets */,
 				55B5045C1AE96948004E5C45 /* Main.storyboard */,
 				55B504501AE96948004E5C45 /* Supporting Files */,
@@ -202,6 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B5045B1AE96948004E5C45 /* Images.xcassets in Resources */,
+				5586ABF21AF2A16000D4C714 /* sudoku-intermediate.plist in Resources */,
+				5586ABF11AF2A16000D4C714 /* sudoku-expert.plist in Resources */,
+				5586ABF31AF2A16000D4C714 /* sudoku-simple.plist in Resources */,
+				5586ABF01AF2A16000D4C714 /* sudoku-easy.plist in Resources */,
 				55B5045E1AE96948004E5C45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,10 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B504591AE96948004E5C45 /* ViewController.m in Sources */,
+				5586ABEB1AF2A0C200D4C714 /* SudokuPuzzle.m in Sources */,
+				55B504591AE96948004E5C45 /* SudokuViewController.m in Sources */,
 				55B504751AE969DC004E5C45 /* SudokuView.m in Sources */,
 				55B504561AE96948004E5C45 /* main.m in Sources */,
 				55B504541AE96948004E5C45 /* AppDelegate.m in Sources */,
+				5586ABF61AF2A32D00D4C714 /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +438,7 @@
 				55B5046F1AE96949004E5C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55B504701AE96949004E5C45 /* Build configuration list for PBXNativeTarget "SudokuMac2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +447,7 @@
 				55B504721AE96949004E5C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

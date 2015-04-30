@@ -8,7 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class SudokuViewController;
+
 @interface SudokuView : NSView
+
+@property (weak, nonatomic) IBOutlet SudokuViewController *sudokuViewController;
 
 @property (assign, nonatomic) NSInteger selectedCol;  // -1 => non selected, 0..8
 @property (assign, nonatomic) NSInteger selectedRow;
